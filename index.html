@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+		<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Exx3u3Sdxt2IsT6dw1dHG-1L5S0vN4j6c9fEgxSlpVTfF0pHd-uAYVta6ogQbvjL8ouCAs7laT_SRJuwVHWWzw" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="style.css"/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">		
+
+		<title>Case Study - Google Lens vs MobileNet</title>
+	</head>
+	<body>
+		<br>
+        <h3>Research on Google Lens and MobileNet</h3>
+		<br>
+		<p>Conclusion: According to our findings, google lens has correctly identified the below 10 objects. On the contrary, the MobileNet framework has not been able to identify most of the objects. We recommend you to not use the <strong>MobileNet</strong> model and use the <strong>Google Lens API</strong> instead.</p>
+
+		<p><strong>NOTE: The MobileNet model seems to work very well in a few cases. However, the Google Lens API seems to work incredibly well in most cases. This may be due to lighting conditions or how exactly the photograph was taken. The results may vary depending on the conditions.</strong></p>
+		If you are interested, here are the images that we tested on and their results:</p>
+		<div class="ruling">
+		<br>
+			<div class="testImg col-xs-12">
+				<li class="col-xs-12 col-sm-4 col-md-6">
+					<strong class="bold-element">Test Image: </strong>
+					 <img src="Aespa Lightstick.jpg" class="img-responsive" />
+				</li>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">Google Lens: Aespa's Lightstick sketch</strong>
+				</h4>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">MobileNet:
+						ae Lightstick
+					</strong>
+				</h4>
+
+				<div class="miniResults col-xs-12">
+					<h4>Result: Indifferent results from both models</h4>
+					
+					<h4></h4> 
+				</div>
+			</div>
+			<br>
+			<div class="testImg col-xs-12">
+				<li class="col-xs-12 col-sm-4 col-md-6">
+					<strong class="bold-element">Test Image: </strong>
+					 <img src="Blackpink keychain.jpg" class="img-responsive" />
+				</li>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">Google Lens: BLɅϽKPIИK's keychain</strong>
+				</h4>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">MobileNet:
+						keychain
+					</strong>
+				</h4>
+
+				<div class="miniResults col-xs-12">
+					<h4>Result: Google Lens is more accurate</h4>
+					
+					<h4></h4> 
+				</div>
+			</div>
+			<br>
+			<div class="testImg col-xs-12">
+				<li class="col-xs-12 col-sm-4 col-md-6">
+					<strong class="bold-element">Test Image: </strong>
+					 <img src="BT21.webp" class="img-responsive" />
+				</li>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">Google Lens: BT21 Cute keychains </strong>
+				</h4>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">MobileNet: 
+						animal keychains
+					</strong>
+				</h4>
+
+				<div class="miniResults col-xs-12">
+					<h4>Result: Google Lens is more accurate</h4>
+					
+					<h4></h4> 
+				</div>
+			</div>
+			<br>
+			<div class="testImg col-xs-12">
+				<li class="col-xs-12 col-sm-4 col-md-6">
+					<strong class="bold-element">Test Image: </strong>
+					 <img src="BTS hoodie.jpg" class="img-responsive" />
+				</li>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">Google Lens: BTS hoodie</strong>
+				</h4>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">MobileNet: jacket</strong>
+				</h4>
+
+				<div class="miniResults col-xs-12">
+					<h4>Result: Google lens is more accurate</h4>
+					
+					<h4></h4> 
+				</div>
+			</div>
+			<br>
+			<div class="testImg col-xs-12">
+				<li class="col-xs-12 col-sm-4 col-md-6">
+					<strong class="bold-element">Test Image: </strong>
+					 <img src="BTS Official Lightstick.jpg" class="img-responsive" />
+				</li>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">Google Lens: BTS's Lightstick; Army Bomb</div></strong>
+				</h4>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">MobileNet: Snowball stick</strong>
+				</h4>
+
+				<div class="miniResults col-xs-12">
+					<h4>Result: Google Lens is more accurate</h4>
+					
+					<h4></h4> 
+				</div>
+			</div>
+			<br>
+			<div class="testImg col-xs-12">
+				<li class="col-xs-12 col-sm-4 col-md-6">
+					<strong class="bold-element">Test Image: </strong>
+					 <img src="ENYPHEN  Lightstick.jpg" class="img-responsive" />
+				</li>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">Google Lens: ENYPHEN's Lightstick</strong>
+				</h4>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">MobileNet:  Laser within ball</strong>
+				</h4>
+
+				<div class="miniResults col-xs-12">
+					<h4>Result: Google lens is more accurate</h4>
+					
+					<h4></h4> 
+				</div>
+			</div>
+			<br>
+            <div class="testImg col-xs-12">
+				<li class="col-xs-12 col-sm-4 col-md-6">
+					<strong class="bold-element">Test Image: </strong>
+					 <img src="Five fandoms keychain.jpg" class="img-responsive" />
+				</li>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">Google Lens: All fav 3rd and 4th gen kpop keychains</strong>
+				</h4>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">MobileNet: Random keychains</strong>
+				</h4>
+
+				<div class="miniResults col-xs-12">
+					<h4>Result: Google Lens is more accurate</h4>
+					
+					<h4>Google Lens is more accurate</h4>	
+				</div>
+			</div>
+			<br>
+            <div class="testImg col-xs-12">
+				<li class="col-xs-12 col-sm-4 col-md-6">
+					<strong class="bold-element">Test Image: </strong>
+					 <img src="Official BLACKPINK Lightstick.jpg" class="img-responsive" />
+				</li>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">Google Lens: BLɅϽKPIИK's official Lightstick</strong>
+				</h4>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">MobileNet: Blackpink hammer</strong>
+				</h4>
+
+				<div class="miniResults col-xs-12">
+					<h4>Result: Google Lens is more accurate</h4>
+
+					<h4></h4> 
+				</div>
+			</div>
+			<br>
+            <div class="testImg col-xs-12">
+				<li class="col-xs-12 col-sm-4 col-md-6">
+					<strong class="bold-element">Test Image: </strong>
+					 <img src="Pink_Bracelet.jpg" class="img-responsive" />
+				</li>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">Google Lens: Pink charm bracelet</strong>
+				</h4>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">MobileNet: BRACELET</strong>
+				</h4>
+
+				<div class="miniResults col-xs-12">
+					<h4>Result: Google Lens is more accurate</h4>
+					
+					<h4></h4> 
+				</div>
+			</div>
+			<br>
+            <div class="testImg col-xs-12">
+				<li class="col-xs-12 col-sm-4 col-md-6">
+					<strong class="bold-element">Test Image: </strong>
+					 <img src="PURPLE BRACELET.jpg" class="img-responsive" />
+				</li>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">Google Lens:Purple charm bracelet</strong>
+				</h4>
+
+				<h4 class="col-xs-12 col-sm-4">
+					Output on <strong class="bold-element">MobileNet:
+						bracelet
+					</strong>
+				</h4>
+
+				<div class="miniResults col-xs-12">
+					<h4>Result: Google Lens is more accurate</h4>
+					
+					<h4></h4> 
+				</div>
+			</div>
+
+	</body>
+</html>
